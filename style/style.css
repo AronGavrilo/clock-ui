@@ -14,12 +14,12 @@ body{
 
 @font-face{
     font-family: 'ps2';
-    src: url(./fonts/btseps2.TTF);
+    src: url(../fonts/btseps2.TTF);
 }
 
 .logo{
     font-family: "ps2";
-font-size: 2rem;
+   font-size: 2rem;
 
 }
 
@@ -47,7 +47,8 @@ font-size: 2rem;
 
 
 header{
-    width: 1220px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     height: 100px;
     display: flex;
